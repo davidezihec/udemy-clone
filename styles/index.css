@@ -1,0 +1,84 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  /* margin-top: 10px; */
+  box-shadow: rgba(4, 4, 4, 0.707) 0px 2px 8px 0px;
+}
+.bod {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f9fb;
+  align-items: center;
+}
+.Hd .header .blackhole {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: white;
+}
+
+.Lsect {
+  height: 25vh;
+  box-shadow: rgba(4, 4, 4, 0.707) 0px 2px 8px 0px;
+}
+form input {
+  width: 500px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid #635d5d;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  outline: none;
+}
+form i {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* .online {
+  position: absolute;
+} */
+/* .online::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border: 2px solid #5a0fb1;
+  border-radius: 60%;
+  background-color: #5a0fb1;
+  position: absolute;
+  top: 0;
+  right: 0;
+} */
+.Header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  box-shadow: rgba(4, 4, 4, 0.707) 0px 2px 8px 0px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer h1 {
+  padding-left: 25px;
+  padding-top: 25px;
+}
+footer a {
+  padding-right: 25px;
+  padding-top: 25px;
+}
